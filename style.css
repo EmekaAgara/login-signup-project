@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.left-section,.right-section {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+ 
+.left-section {
+    left: 0;
+    background-color: #2C73EB;
+}
+ 
+.right-section {
+    right: 0;
+    background-color: white;
+}
+
+.left-section .logo{
+    color: white;
+    padding: 30px;
+}
+.animation{
+    position: absolute;
+    top:25%;
+    left:25%;
+    margin:-25px 0 0 -25px;
+}
+
+.right-section .back-icon{
+    padding: 30px;
+}
+
+.account-login{
+    padding: 100px;
+
+}
+
+.account-login{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-text{
+    margin-bottom: 2
+    0px;
+}
+
+/* .input .button{
+    margin-top: 50px;
+    
+} */
